@@ -1,0 +1,42 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\BartoszGrzebyk\\Documents\\NET\\dotnet\\build.proj": {}
+  },
+  "projects": {
+    "C:\\Users\\BartoszGrzebyk\\Documents\\NET\\dotnet\\build.proj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BartoszGrzebyk\\Documents\\NET\\dotnet\\build.proj",
+        "projectName": "build",
+        "projectPath": "C:\\Users\\BartoszGrzebyk\\Documents\\NET\\dotnet\\build.proj",
+        "packagesPath": "C:\\Users\\BartoszGrzebyk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BartoszGrzebyk\\Documents\\NET\\dotnet\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BartoszGrzebyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "targetAlias": "net45",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "targetAlias": "net45",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

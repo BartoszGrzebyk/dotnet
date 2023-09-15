@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FhfSzJUOgj4sKETJkD5hJjv96AFiuYRwnfmZyuC6IBJZ2Vyajf2TjxQxrbxnYAfc40mfy4ZglDDBM5Qd1ZW29Q==",
+  "dgSpecHash": "eMumSYx6MaI5WxJtbIZ7nMEgY9COl66s3i2AFT7sLqY0qsopn0hQLsrCERa+TeW8RY14ajw1r+UQABGxG3vZcg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\BartoszGrzebyk\\Documents\\NET\\dotnet\\dotnet.unitTests\\dotnet.unitTests.csproj",
+  "projectFilePath": "C:\\Users\\BartoszGrzebyk\\Documents\\NET\\dotnet\\dotnet.unitTests\\dotnet.unitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BartoszGrzebyk\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\BartoszGrzebyk\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",

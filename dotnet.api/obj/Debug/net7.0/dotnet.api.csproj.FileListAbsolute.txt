@@ -41,3 +41,8 @@ C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Mono.Te
 C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Npgsql.dll
 C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\HealthChecks.NpgSql.dll
+C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll

@@ -46,3 +46,5 @@ C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Microso
 C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -1,17 +1,30 @@
 using System.Net.Mime;
 using System.Text.Json;
+using dotnet.api.Data;
+using dotnet.api.Repositories;
+using dotnet.api.Repositories.Interfaces;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 var postgresConnectionString = builder.Configuration.GetConnectionString("PostgresDatabase");
+builder.Services.AddDbContext<AppDbContext>(options => 
+    options.UseNpgsql(postgresConnectionString)
+);
+
+builder.Services.AddScoped<IItemsRepository, ItemsRepository>();
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(options => {
+    options.SuppressAsyncSuffixInActionNames = false;
+});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddHealthChecks().AddNpgSql(postgresConnectionString, name: "postgres");
 

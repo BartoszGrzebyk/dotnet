@@ -1,5 +1,4 @@
 using AutoMapper;
-using dotnet.api.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace dotnet.api.Controllers;

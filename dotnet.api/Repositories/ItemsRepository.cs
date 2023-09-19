@@ -1,8 +1,6 @@
 using dotnet.api.Data;
-using dotnet.api.Dtos.Items;
 using dotnet.api.Models;
 using dotnet.api.Repositories.Interfaces;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 
 namespace dotnet.api.Repositories;

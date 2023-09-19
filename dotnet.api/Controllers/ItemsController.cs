@@ -2,6 +2,7 @@ using AutoMapper;
 using dotnet.api.Dtos.Items;
 using dotnet.api.Models;
 using dotnet.api.Repositories.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace dotnet.api.Controllers;
@@ -40,7 +41,7 @@ public class ItemsController : BaseController
         return mapper.Map<ItemDto>(item);
     }
 
-    [HttpGet]
+    [HttpGet, Authorize(Roles = "Admin")]
     public async Task<IEnumerable<ItemDto>> GetItemsAsync()
     {
         var items = await itemsRepository.GetItemsAsync();

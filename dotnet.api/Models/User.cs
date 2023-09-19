@@ -12,7 +12,7 @@ public class User
 	[Column("password")]
 	public string Password {get; set;} = string.Empty;
 	[Column("role")]
-	public RoleType Role {get; set;}
+	public RoleType Role {get; set;} = RoleType.User;
 }
 
 public enum RoleType{

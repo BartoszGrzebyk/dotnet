@@ -48,3 +48,12 @@ C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Microso
 C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\BCrypt.Net-Next.dll
+C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\BartoszGrzebyk\Documents\NET\dotnet\dotnet.api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

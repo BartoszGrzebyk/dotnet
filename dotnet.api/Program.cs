@@ -6,7 +6,6 @@ using dotnet.api.Repositories;
 using dotnet.api.Repositories.Interfaces;
 using dotnet.api.Services;
 using dotnet.api.Services.Interfaces;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;

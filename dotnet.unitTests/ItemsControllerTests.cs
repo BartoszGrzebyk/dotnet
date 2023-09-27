@@ -169,7 +169,7 @@ public class ItemsControllerTests
 
         var controller = new ItemsController(mapperStub, loggerStub.Object, repositoryStub.Object);
 
-        var result = await controller.DeleteItemAsync(rand.Next());
+        var result = await controller.DeleteItemAsync(existingItem.Id);
 
         result.Should().BeOfType<NoContentResult>();
     }

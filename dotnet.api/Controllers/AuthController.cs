@@ -1,7 +1,6 @@
 using AutoMapper;
 using dotnet.api.Dtos.Users;
 using dotnet.api.Models;
-using dotnet.api.Repositories.Interfaces;
 using dotnet.api.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 

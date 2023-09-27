@@ -10,10 +10,12 @@ namespace dotnet.api.Controllers;
 public class ItemsController : BaseController
 {
     private readonly IItemsRepository itemsRepository;
+    private readonly ILogger<ItemsController> logger;
 
-    public ItemsController(IMapper mapper, IItemsRepository itemsRepository) : base(mapper)
+    public ItemsController(IMapper mapper, ILogger<ItemsController> logger, IItemsRepository itemsRepository) : base(mapper)
     {
         this.itemsRepository = itemsRepository;
+        this.logger = logger;
     }
 
     [HttpPost]
